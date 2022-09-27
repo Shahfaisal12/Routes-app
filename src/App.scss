@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,100&display=swap');
+
+.hero-section {
+  background: url("http://www.dentons.com/~/media/Images/Website/Background%20Images/Landing%20Pages/Whats%20Different%20About%20Dentons/Contact%20us/contact3.jpg") no-repeat center fixed;
+  background-size: cover;
+  min-height: 300px;
+}
+
+@mixin heading {
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-style: italic;
+}
+
+// @keyframes myAnim {
+// 	0% {
+// 		background-position: center top;
+// 		background-size: 100%;
+// 	}
+
+// 	100% {
+// 		background-position: center top;
+// 		background-size: 150%;
+// 	}
+// }
+
+// @keyframes heroimage {
+//   from{
+//     left: -100px;
+//   }
+//   to{
+//     left: 0;
+//   }
+// }
+
+// .hero-image{
+//   position: relative;
+//   animation: heroimage;
+//   animation-duration: 5s;
+// }
+
+// @keyframes heading {
+//   from{
+//     right: -300px;
+//   }
+//   to{
+//     right: 0;
+//   }
+// }
+
+// .hero-content h1, .btn-search{
+//   position: relative;
+//   animation: heading;
+//   animation-duration: 5s;
+// }
+// @keyframes para {
+//   from{
+//     bottom: -300px;
+//   }
+//   to{
+//     bottom: 0;
+//   }
+// }
+// .hero-content p{
+//   position: relative;
+//   animation: para;
+//   animation-duration: 5s;
+// }
+// $primary-color: #ff5e14;
+
+.btn-search {
+	border-color: #ff5e14;
+
+	&:hover {
+		background-color: #ff5e14 !important;
+	}
+
+}
+
+h1 {
+	font-family: 'Roboto';
+  // color: $primary-color;
+  @include heading();
+  
+}
+
+
+.faq-title {
+	margin-bottom: 20px;
+}
+
+.row-title-text {
+	font-family: 'Roboto';
+}
+
+.styles_faq-row-wrapper__3vA1D {
+
+	.styles_faq-row__2YF3c {
+		border-bottom: 0px !important;
+	}
+
+	.styles_row-body__1NvUo {
+
+		.styles_faq-row__2YF3c {
+
+			.styles_row-title__1YiiY.styles_no-tabfocus__1HmyD {
+				outline: none;
+				box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+				padding-left: 20px;
+			}
+
+		}
+
+	}
+
+}
+
+.row-content {
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	padding: 10px;
+}
+
+.fixedButton{
+	position: fixed;
+	bottom: 0px;
+	right: 0px; 
+	padding: 20px;
+	z-index: 4;
+}
+.roundedFixedBtn{
+  height: 40px;
+  width: 40px;  
+  font-size: 2em;
+  border-radius: 50%;
+  color: gray;
+  cursor: pointer;
+}
